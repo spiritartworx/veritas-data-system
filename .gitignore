@@ -1,0 +1,118 @@
+# ===================================
+# 🔐 SECURITY & CREDENTIALS
+# ===================================
+.env
+*.pem
+*.key
+*.crt
+*.pfx
+*.cert
+secrets.json
+config/secrets.yml
+firebase-adminsdk-*.json
+*.enc
+
+# ===================================
+# 🔗 DATABASE FILES
+# ===================================
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+dump.rdb
+nohup.out
+pg_data/
+mysql_data/
+mongodb_data/
+*.sql
+*.csv  # Exclude CSVs (comment this out if needed)
+
+# ===================================
+# 📁 CLOUD STORAGE & THIRD-PARTY SYNC
+# ===================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+node_modules/
+dist/
+coverage/
+build/
+.cache/
+.notion-db-backup/
+google-drive-sync/
+
+# ===================================
+# 🛠 DEPENDENCY MANAGEMENT
+# ===================================
+package-lock.json
+yarn.lock
+poetry.lock
+pip-log.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.envrc
+
+# ===================================
+# 🔍 LOGS & DEBUG FILES
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+
+# ===================================
+# 🔗 GIT & REPO CONFIG
+# ===================================
+.gitignore
+README.md~
+.idea/
+*.iml
+*.ipr
+*.iws
+*.orig
+*.rej
+*.swp
+*.swo
+
+# ===================================
+# 🏗 FRONTEND BUILD FILES
+# ===================================
+*.min.js
+*.map
+.sass-cache/
+node_modules/
+public/build/
+.next/
+.nuxt/
+out/
+
+# ===================================
+# 🔐 BLOCKCHAIN & PRIVATE KEYS
+# ===================================
+keystore/
+wallets/
+*.keystore
+*.wallet
+*.blockchain
+
+# ===================================
+# 📝 DOCUMENTS & PRIVATE DATA
+# ===================================
+*.docx
+*.pptx
+*.xlsx
+*.notion
+notion-export/
+contracts/
+legal-docs/
